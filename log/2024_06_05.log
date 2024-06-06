@@ -1,0 +1,5 @@
+2024-06-05 16:22:17,111 - requestsutil.py[line:15] - INFO: 请求的url为http://192.168.232.128/api/admin/login,类型为<class 'str'>
+2024-06-05 16:22:17,112 - requestsutil.py[line:17] - INFO: 请求的method为post,类型为<class 'str'>
+2024-06-05 16:22:17,112 - requestsutil.py[line:19] - INFO: 请求的data为{'userName': 'admin', 'password': '2da2f5389fddd86f190f20313e7a085d', 'https': False, 'key': 1635041072338},类型为<class 'dict'>
+2024-06-05 16:22:17,112 - requestsutil.py[line:21] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2024-06-05 16:22:17,112 - requestsutil.py[line:23] - INFO: 请求的cookies为None,类型为<class 'NoneType'>

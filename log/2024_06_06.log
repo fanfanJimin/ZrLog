@@ -1,0 +1,12 @@
+2024-06-06 14:00:46,930 - test_run.py[line:36] - INFO: ***** 开始执行测试用例，开始时间为：2024-06-06 14:00:46 *****
+2024-06-06 14:00:46,932 - test_run.py[line:73] - INFO: 正在执行密码错误用例
+2024-06-06 14:00:46,932 - requestsutil.py[line:15] - INFO: 请求的url为http://192.168.232.128//api/admin/login,类型为<class 'str'>
+2024-06-06 14:00:46,932 - requestsutil.py[line:17] - INFO: 请求的method为post,类型为<class 'str'>
+2024-06-06 14:00:46,932 - requestsutil.py[line:19] - INFO: 请求的data为{'userName': 'admin', 'password': 123456, 'https': False, 'key': 1598188173501},类型为<class 'dict'>
+2024-06-06 14:00:46,932 - requestsutil.py[line:21] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2024-06-06 14:00:46,932 - requestsutil.py[line:23] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2024-06-06 14:00:46,946 - test_run.py[line:77] - INFO: 用例执行成功，请求的结果为{'code': 404, 'body': "<html>\n<head>\n    <title>404 Not Found</title>\n</head>\n<body bgcolor='white'>\n<center>\n    <h1>404 Not Found</h1>\n</center>\n<hr>\n<center>\n    <a href='http://www.zrlog.com'>ZrLog</a>\n</center>\n</body>\n</html>", 'cookies': {}}
+2024-06-06 14:00:46,946 - test_run.py[line:159] - INFO: 用例断言失败
+2024-06-06 14:00:46,947 - mysqlutil.py[line:47] - ERROR: sql语句执行错误，已执行回滚操作
+2024-06-06 14:00:46,947 - readmysql.py[line:52] - DEBUG: insert into `test_result_record`(case_id,times,response,result) values ('1','2024-06-06 14:00:46','{"code": 404, "body": "<html>\n<head>\n    <title>404 Not Found</title>\n</head>\n<body bgcolor='white'>\n<center>\n    <h1>404 Not Found</h1>\n</center>\n<hr>\n<center>\n    <a href='http://www.zrlog.com'>ZrLog</a>\n</center>\n</body>\n</html>", "cookies": {}}','False')
+2024-06-06 14:00:47,031 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2024-06-06 14:00:46 *****
